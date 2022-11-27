@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import {AiOutlineArrowLeft, AiOutlineArrowRight} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 export const VideoContainer = styled.div`
-    background: cyan;
+        top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +36,7 @@ export const VideoBg = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    backgroundColor: black;
 `
 export const VideoEle = styled.video`
     width: 100%;

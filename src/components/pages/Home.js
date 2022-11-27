@@ -6,13 +6,13 @@ import Background from '../Background';
 import InfoSection from '../InfoSection';
 import {homeObjOne, homeObjTwo, homeObjThree} from '../InfoSection/Data';
 
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = ()=>{
     setIsOpen(!isOpen);
   };
-  console.log(homeObjOne);
 
   return <div>
       <Navbar  toggle={toggle}/>
